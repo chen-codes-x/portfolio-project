@@ -26,10 +26,28 @@ header {
     width: 100%;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+    color: #0d0d0d;
+}
+
 h1 {
     font-family: obviously, sans-serif;
 }
 
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    color: #fe3b77;
+}
 /*main content*/
 main {
     background-color: #0d0d0d;
