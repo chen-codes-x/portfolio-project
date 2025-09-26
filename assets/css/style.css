@@ -12,6 +12,9 @@ body {
     flex-direction: column;
     /* generic project styles */
     color: #fafafa;
+    font-family: obviously, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*header*/
@@ -19,14 +22,19 @@ header {
     background-color: #ffffff;
 }
 
+h1 {
+    font-family: obviously, sans-serif;
+}
+
 /*main content*/
 main {
     background-color: #0d0d0d;
-    /* makes main take up all available space */
+    /* makes main take up all available space to push footer down */
     flex: 1 0 auto;
 }
 
 /*footer*/
 footer {
     background-color: #fafafa;
+    color: #0d0d0d;
 }
